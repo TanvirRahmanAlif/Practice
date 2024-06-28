@@ -1,0 +1,53 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: "Poppins", sans-serif;
+}
+
+.table-box{
+	width:1140px;
+	margin:auto;
+	border:1px solid red;
+}
+
+.row-box{
+	display:flex;
+	height:1000px;
+	flex-direction:row;
+	flex-wrap:wrap; /*nowrap*/ /*wrap-reverse*/
+	justify-content:space-evenly /*flex-end*/ /*center*/ /*space-between*/ /*space-around*/;
+	align-items:stretch /*flex-end*/ /*flex-start*/ /*center*/;
+}
+
+.col-box{
+	text-align:center;
+	/*width:25%;*/
+	flex-basis:25%; /*use for width*/
+	
+}
+
+.col-order{
+	order:4; /*joto kom man thakbe toto age dekhabe (minus man o use kora jabe)*/ 
+	align-self:flex-end; /*vertical align deyar jonno*/
+}
+
+.col-box i{
+	color:red;
+	padding-top:15px;
+	font-size:40px;
+}
+
+.col-box h1{
+	font-size:30px;
+	padding-top:10px;
+	text-decoration:underline red;
+}
+
+.col-box p{
+	font-size:14px;
+	padding:10px;
+}

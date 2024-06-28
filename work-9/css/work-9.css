@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1140px;
+}
+
+.ga{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.matha{
+    font-size: 40px;
+    width: 130px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    transition: all 2s ease-in-out;
+}
+
+.matha:hover{
+    font-size: 70px;
+    width: 210px;
+    color:aqua ;
+    background-color: brown;
+    transform: matrix(0.586,0.8,-0.8,0.586,0,0);
+}
+
+.pic img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    transition: all 3s ease-in;
+}
+
+.pic img:hover{
+    filter: blur(2px);
+    width: 600px;
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+}
+
+.but{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(101, 216, 8);
+    border-radius: 5px;
+    width: 140px;
+    padding: 10px;
+}
+
+.buti{
+    padding: 10px;
+}

@@ -1,0 +1,35 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: "Poetsen One", sans-serif;
+}
+
+.box-1{
+	width:33%;
+	margin:auto;
+	margin-top:50px;
+	text-align:center;
+	background:#222222;
+	padding:50px 20px;
+	color:#ffffff;
+	border-radius:15px;
+}
+
+.box-1 h1{
+	padding-bottom:15px;
+	color:#D16B1D;
+	font-size:40px;
+}
+
+.box-1-icon{
+	font-size:40px;
+	padding-bottom:15px;
+}
+
+.box-1 p{
+	font-size:14px;
+}

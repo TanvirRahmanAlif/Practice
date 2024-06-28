@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: 1140px;
+    height: 1vh;
+    font-family: "Roboto Slab", serif;
+}
+
+.table{
+    display: flex;
+    margin: 20px;
+}
+
+p{
+    color: #7E8398;
+}
+
+/* Section 1 */
+
+.sec-1{
+    margin:0px 20px;
+    flex-basis: 60%;
+}
+
+.row-1 h1{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.row-1 p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.row-2, .row-3, .row-4{
+    display: flex;
+    align-items: center;
+}
+
+.row-2 img, .row-3 img, .row-4 img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    background-color: #FF8225;
+    border-radius: 50%;
+}
+
+.row-2 h5, .row-3 h5, .row-4 h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 10px;
+}
+
+.row-2 p, .row-3 p, .row-4 p{
+    font-size: 15px;
+    margin: 15px 10px;
+}
+
+/* Section 2 */
+
+.sec-2 img{
+    margin:0px 20px;
+    height: 100%;
+    width: 100%;
+}

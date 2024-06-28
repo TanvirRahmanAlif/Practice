@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Playfair Display", serif;
+}
+
+.page{
+    width: 1140px;
+    height: 100vh;
+    margin: auto;
+}
+
+.sec-1{
+    display: flex;
+    margin: 10px;
+}
+
+.sec-2{
+    display: flex;
+    margin: 10px;
+    margin-top: 80px;
+}
+
+/* Section-1 */
+
+.col-1, .col-2, .col-3{
+    display: flex;
+    flex-basis: 33.33%;
+    border: 1px solid gray;
+    margin: 10px;
+    align-items: center;
+}
+
+.col-1 i, .col-2 i, .col-3 i{
+   font-size: 25px;
+   padding: 10px;
+   color:  #f7ad03 ;
+}
+
+.col-1 h5, .col-2 h5, .col-3 h5{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.col-1 p, .col-2 p, .col-3 p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* Section-2 */
+
+.col-4{
+    width: 80%;
+    margin: 10px;
+}
+
+.col-4 h5{
+    background-color: #f7ad03;
+    color: white;
+    width: 90px;
+    margin: 10px;
+}
+
+.col-4 h1{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.col-4 p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.col-4 button{
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background-color: #f7ad03;
+    margin: 20px 0px 10px 5px;
+    padding: 10px;
+}
+
+.col-5, .col-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+.part-1, .part-2, .part-3, .part-4{
+    display: flex;
+    margin: 10px;
+}
+
+.part-1 i, .part-2 i, .part-3 i,.part-4 i{
+    font-size: 25px;
+    margin: 10px;
+    color: #f7ad03;
+}
+
+.part-1 h5, .part-2 h5, .part-3 h5,.part-4 h5{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.part-1 p, .part-2 p, .part-3 p,.part-4 p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.part-1 h6, .part-2 h6, .part-3 h6,.part-4 h6{
+    font-size: 15px;
+    margin: 10px;
+    color: #f7ad03;
+}
